@@ -4,19 +4,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kartik991/be-sheenPath.git"
+    "url": "git+https://github.com/mananverma18/SIH_DATABASES.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kartik991/be-sheenPath/issues"
+    "url": "https://github.com/mananverma18/SIH_DATABASES/issues"
   },
-  "homepage": "https://github.com/Kartik991/be-sheenPath#readme",
+  "homepage": "https://github.com/mananverma18/SIH_DATABASES#readme",
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.10"
