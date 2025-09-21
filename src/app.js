@@ -6,7 +6,7 @@ import session from "express-session";
 import MongoStore from "connect-mongo";
 import { dbName } from "./constants.js";
 import dotenv from "dotenv";
-
+import './auth.js'; 
 dotenv.config();
 
 const app = express();
